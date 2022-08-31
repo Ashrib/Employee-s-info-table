@@ -44,6 +44,5 @@ for(var i=0; i<totalEmployees.length; i++) { //this loop is based on how many ob
         var td = document.createElement("td");// creates <td> for each value
         td.appendChild(document.createTextNode(totalEmployees[i][key]));//this is how to get value of properties
         tr.appendChild(td);
-        console.log(totalEmployees[i].key)
     }
 }
