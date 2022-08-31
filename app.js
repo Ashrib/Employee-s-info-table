@@ -22,8 +22,8 @@ var tableTitle = document.createElement("tr");
 var tdTitle = document.createElement("td");
 tdTitle.setAttribute("id", "table-title");
 tdTitle.setAttribute("colspan","8");
-tdTitle.appendChild(document.createTextNode("Employee's Information"))
-tableTitle.appendChild(tdTitle)  
+tdTitle.appendChild(document.createTextNode("Employee's Information"));
+tableTitle.appendChild(tdTitle);
 tbl.appendChild(tableTitle);
 var tr = document.createElement("tr");
 tbl.appendChild(tr);
