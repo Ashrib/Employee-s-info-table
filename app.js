@@ -12,8 +12,6 @@ var employee1 = new AllData(1401, "Ali Khan", "Bilal Khan", "nothing1@gmail.com"
 var employee2 = new AllData(1402, "Usman Ali", "Naveed Ali", "nothing2@gmail.com", "House No.2, Korangi, Karachi", "Assistant Manager", "3 Years", 60000);
 var employee3 = new AllData(1403, "Syed Maaz", "Syed Fahad", "nothing3@gmail.com", "House No.3, DHA, Karachi", "Supervisor", "4 Years", 40000);
 var totalEmployees = [employee1, employee2, employee3];
-console.log(employee1.id);
-
 
 var getBody = document.getElementById("container");
 var tbl = document.createElement("table");
